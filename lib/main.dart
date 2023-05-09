@@ -21,7 +21,7 @@ void main() async {
   runApp(WondersApp());
   await appLogic.bootstrap();
 
-  // Remove splash screen when bootstrap is complete
+  // Remove splash screen when bootstrap is complete //
   FlutterNativeSplash.remove();
 }
 
